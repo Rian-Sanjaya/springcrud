@@ -68,7 +68,7 @@
 
         <div class="row mb-3">
           <div class="offset-sm-4 col-sm-8">
-            <img th:src="@{'/images/' + ${product.imageFileName}" alt="..." width="150">
+            <img th:src="@{'/images/' + ${product.imageFileName}}" alt="..." width="150">
           </div>
         </div>
 
@@ -91,7 +91,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
           <div class="col-sm-4 d-grid">
-            <button class="btn btn-outline-primary" href="/products" role="button">Cancel</button>
+            <a class="btn btn-outline-primary" href="/products" role="button">Cancel</a>
           </div>
         </div>
       </form>
